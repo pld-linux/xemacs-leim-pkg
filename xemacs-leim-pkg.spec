@@ -1,11 +1,12 @@
-Summary:	Quail. All non-English and non-Japanese language support
-Summary(pl):	Quail. All non-English and non-Japanese language support
+Summary:	Quail - all non-English and non-Japanese language support
+Summary(pl):	Quail - obs³uga wszystkich jêzyków innych ni¿ angielski i japoñski
 Name:		xemacs-leim-pkg
 %define 	srcname	leim
 Version:	1.17
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Editors/Emacs
+Group(de):	Applikationen/Editors/Emacs
 Group(pl):	Aplikacje/Edytory/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
 URL:		http://www.xemacs.org/
@@ -18,8 +19,10 @@ Requires:	xemacs-base-pkg
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+Quail - all non-English and non-Japanese language support.
 
 %description -l pl 
+Quail - obs³uga wszystkich jêzyków innych ni¿ angielski i japoñski.
 
 %prep
 %setup -q -c
