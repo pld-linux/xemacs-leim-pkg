@@ -19,7 +19,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Quail - all non-English and non-Japanese language support.
 
-%description -l pl 
+%description -l pl
 Quail - obs³uga wszystkich jêzyków innych ni¿ angielski i japoñski.
 
 %prep
@@ -31,13 +31,13 @@ install -d $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
 cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
-gzip -9nf lisp/leim/ChangeLog 
+gzip -9nf lisp/leim/ChangeLog
 
 %clean
 rm -fr $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc lisp/leim/ChangeLog.gz 
+%doc lisp/leim/ChangeLog.gz
 %dir %{_datadir}/xemacs-packages/lisp/*
 %{_datadir}/xemacs-packages/lisp/*/*.elc
