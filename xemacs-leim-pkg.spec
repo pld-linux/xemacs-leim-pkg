@@ -2,7 +2,7 @@ Summary:	Quail - all non-English and non-Japanese language support
 Summary(pl):	Quail - obs³uga wszystkich jêzyków innych ni¿ angielski i japoñski
 Name:		xemacs-leim-pkg
 %define 	srcname	leim
-Version:	1.18
+Version:	1.19
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
@@ -40,5 +40,7 @@ rm -fr $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc lisp/leim/ChangeLog
-%dir %{_datadir}/xemacs-packages/lisp/*
-%{_datadir}/xemacs-packages/lisp/*/*.el*
+%dir %{_datadir}/xemacs-packages/lisp/leim
+%{_datadir}/xemacs-packages/lisp/leim/*.elc
+%dir %{_datadir}/xemacs-packages/lisp/leim/quail
+%{_datadir}/xemacs-packages/lisp/leim/quail/*.elc
