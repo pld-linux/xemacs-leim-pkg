@@ -2,12 +2,12 @@ Summary:	Quail - all non-English and non-Japanese language support
 Summary(pl):	Quail - obs³uga wszystkich jêzyków innych ni¿ angielski i japoñski
 Name:		xemacs-leim-pkg
 %define 	srcname	leim
-Version:	1.19
+Version:	1.22
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
-# Source0-md5:	8b7ee8d209911241605c9558e8167c2e
+# Source0-md5:	942fbcd4d56eb59529bbd15c3b6c0b3b
 URL:		http://www.xemacs.org/
 BuildArch:	noarch
 Conflicts:	xemacs-sumo
