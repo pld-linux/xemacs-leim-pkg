@@ -3,7 +3,7 @@ Summary(pl):	Quail - obs³uga wszystkich jêzyków innych ni¿ angielski i japoñski
 Name:		xemacs-leim-pkg
 %define 	srcname	leim
 Version:	1.22
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
