@@ -2,7 +2,7 @@ Summary:	Quail. All non-English and non-Japanese language support
 Summary(pl):	Quail. All non-English and non-Japanese language support
 Name:		xemacs-leim-pkg
 %define 	srcname	leim
-Version:	1.14
+Version:	1.15
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
