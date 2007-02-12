@@ -1,5 +1,5 @@
 Summary:	Quail - all non-English and non-Japanese language support
-Summary(pl.UTF-8):   Quail - obsługa wszystkich języków innych niż angielski i japoński
+Summary(pl.UTF-8):	Quail - obsługa wszystkich języków innych niż angielski i japoński
 Name:		xemacs-leim-pkg
 %define 	srcname	leim
 Version:	1.22
